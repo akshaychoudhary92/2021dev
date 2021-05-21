@@ -1,5 +1,6 @@
-document.querySelector("button").addEventListener(onclick, )
 
-function hadleClick(){
-  alert("I got clicked");
+
+var i;
+for(i = 0; i <= 6; i++){
+document.querySelectorAll("button")[i].addEventListener("click", function(){ alert("I got clicked");});
 }
